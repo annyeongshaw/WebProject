@@ -32,8 +32,32 @@ body {
     font-size: 25px;
 }
 
-/* Menu formatting */
+/* Link formatting - menu */ /* Formatação de links - menu */
 a {
-	text-decoration: none;	
+    padding: 5px 10px;
+    text-decoration: none; /*Remove anderline from links*/ /*Remove o anderline dos links*/
+}
+
+/*1st State - Links not visited*/ /*1º Estado - Links não visitados*/
+a:link {
+    color: black;
+}
+
+
+/*2nd State - Links visited*/ /*2º Estado - Links visitados*/
+a:visited{
+    color: black;
+}
+
+
+/*Links Hover, hover the cursor over the link*/ /*Links Hover, passa o cursor sobre o link*/
+a:hover{
+    color: gold;
+    background: black;
+}
+
+/*Active Links, when clicked*/ /*Links Ativos, quando clicado*/
+a:active{
+    color: black;
 }
 
