@@ -1,0 +1,39 @@
+/* Clearing default page formatting */ /*Limpando formatações padrão da pagina*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: MediumSlateBlue;
+	text-align: center;
+}
+
+/* Header */
+
+#header {
+    background-color: LightSteelBlue;
+    padding: 25px;
+}
+.full-logo {
+    color: gold;
+    font-size: 80px;
+}
+
+.tech-logo {
+    color: black;
+}
+
+.header-menu {
+    color: aquamarine;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+/* Menu formatting */
+a {
+	text-decoration: none;	
+}
+
