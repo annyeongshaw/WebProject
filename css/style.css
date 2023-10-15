@@ -11,10 +11,11 @@ body {
 	text-align: center;
 }
 
-/* Header */
+/*--------------------------------------------------------------------------------*/
+/* Div Header */  /* Div cabeçalho */
 
 #header {
-    background-color: LightSteelBlue;
+    background-color: Indigo;
     padding: 25px;
 }
 .full-logo {
@@ -23,7 +24,7 @@ body {
 }
 
 .tech-logo {
-    color: black;
+    color: LightSteelBlue;
 }
 
 .header-menu {
@@ -32,6 +33,33 @@ body {
     font-size: 25px;
 }
 
+/*--------------------------------------------------------------------------------*/
+/* Div Content */  /* conteúdo */
+.content-01 {
+    background-color: LightSteelBlue;
+    padding: 200px;
+}
+
+.content-02 {
+    padding: 200px;
+    margin: 5px 10px 10px 5px;
+}
+
+.content-03 {
+    background-color: Indigo;
+    padding: 200px;
+}
+
+.content-04 {
+    padding: 200px;
+    margin: 5px 10px 10px 5px;
+}
+
+.content-05 {
+    padding: 80px;
+    margin: 5px 10px 10px 5px;
+}
+/*--------------------------------------------------------------------------------*/
 /* Link formatting - menu */ /* Formatação de links - menu */
 a {
     padding: 5px 10px;
@@ -40,19 +68,19 @@ a {
 
 /*1st State - Links not visited*/ /*1º Estado - Links não visitados*/
 a:link {
-    color: black;
+    color: white;
 }
 
 
 /*2nd State - Links visited*/ /*2º Estado - Links visitados*/
 a:visited{
-    color: black;
+    color: white;
 }
 
 
 /*Links Hover, hover the cursor over the link*/ /*Links Hover, passa o cursor sobre o link*/
 a:hover{
-    color: gold;
+    color: white;
     background: black;
 }
 
