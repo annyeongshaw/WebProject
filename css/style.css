@@ -15,6 +15,10 @@ body {
 /* Div Header */  /* Div cabeçalho */
 
 #header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: Indigo;
     padding: 25px;
 }
@@ -27,7 +31,7 @@ body {
     color: LightSteelBlue;
 }
 
-.header-menu {
+.header-menu {    
     color: aquamarine;
     margin-top: 10px;
     font-size: 25px;
