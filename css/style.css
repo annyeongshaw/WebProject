@@ -41,26 +41,36 @@ body {
 /* Div Content */  /* conteúdo */
 .content-01 {
     background-color: LightSteelBlue;
+    width: 950px;
+    margin: 0 auto;
     padding: 200px;
 }
 
 .content-02 {
     padding: 200px;
+    width: 950px;
+    margin: 0 auto;
     margin: 5px 10px 10px 5px;
 }
 
 .content-03 {
     background-color: Indigo;
+    width: 950px;
+    margin: 0 auto;
     padding: 200px;
 }
 
 .content-04 {
     padding: 200px;
+    width: 950px;
+    margin: 0 auto;
     margin: 5px 10px 10px 5px;
 }
 
 .content-05 {
     padding: 80px;
+    width: 950px;
+    margin: 0 auto;
     margin: 5px 10px 10px 5px;
 }
 /*--------------------------------------------------------------------------------*/
