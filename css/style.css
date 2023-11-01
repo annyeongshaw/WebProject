@@ -21,10 +21,12 @@ body {
 .full-logo {
     color: gold;
     font-size: 80px;
+    font-family: 'Young Serif', serif;
 }
 
 .tech-logo {
     color: LightSteelBlue;
+    font-family: 'Young Serif', serif;
 }
 
 .header-menu {
